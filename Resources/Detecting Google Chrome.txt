@@ -1,0 +1,3 @@
+//Created by: David Walsh
+var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+// Source : http://www.javascriptsource.com/snippets/detecting-google-chrome.html

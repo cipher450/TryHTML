@@ -1,0 +1,2 @@
+a href=javascriptwindow.external.AddFavorite('httpwww.yoursite.com', 'Your Site Name')Add to Favoritesa
+//Source : http://www.htmlgoodies.com/beyond/javascript/article.php/3887346/Top-10-JavaScript-Snippets-for-Common-Tasks.htm

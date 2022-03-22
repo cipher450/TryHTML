@@ -1,0 +1,6 @@
+<FORM>
+<INPUT TYPE="Button" VALUE="Previous Page" onClick="history.go(-1)">
+</FORM>
+//If you would rather use a link, paste the following code where you want the link to appear:
+<a href="javascript:history.back(1)">Previous Page</a> 
+//Source : http://www.htmlgoodies.com/beyond/javascript/article.php/3887346/Top-10-JavaScript-Snippets-for-Common-Tasks.htm

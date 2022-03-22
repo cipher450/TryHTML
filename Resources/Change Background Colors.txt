@@ -1,0 +1,13 @@
+// Paste this code into the HEAD section of your HTML document.
+
+function bgChange() {
+  document.bgColor=document.getElementById("f").txt.value;
+}
+
+// Paste this code into the BODY section of your HTML document
+
+
+<form id="f">
+Enter new background color: <input type="text" name="txt">
+<input type="submit" value="Change color" onclick="bgChange(); return false;">
+</form>

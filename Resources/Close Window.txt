@@ -1,0 +1,9 @@
+<form>
+<input type=button value="Close Window" onClick="javascript:window.close();">
+</form> 
+For a text link, paste the following where you want the link to appear:
+<a href="javascript:window.close();">Click to Close Window</a>
+To make the window close after a given number of seconds, add the event handler to the <body> tag. FYI, 20000 equals 20 seconds.
+<BODY onLoad="setTimeout(window.close,20000)">
+
+//Source : http://www.htmlgoodies.com/beyond/javascript/article.php/3887346/Top-10-JavaScript-Snippets-for-Common-Tasks.htm

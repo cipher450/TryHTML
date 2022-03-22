@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC96C482-C870-4F91-9280-B491E382FB7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TryHTML.My.MyApplication</StartupObject>
+    <RootNamespace>TryHTML</RootNamespace>
+    <AssemblyName>TryHTML</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TryHTML.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TryHTML.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1487785756_text-html.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\..\..\..\VB.NET [Visuel Basic]\Suporte Tool\T3 VB.NET Theme Archive 1.7.0\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TabStrip">
+      <HintPath>..\..\..\VB.NET [Visuel Basic]\Source Codes\Refernce (.DLL)\TabStrip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ASCII2HEX.Designer.vb">
+      <DependentUpon>ASCII2HEX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ASCII2HEX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Code library.Designer.vb">
+      <DependentUpon>Code library.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Code library.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorWheel\ColorChangedEventArgs.vb" />
+    <Compile Include="Forms\ColorWheel\ColorConverter.vb" />
+    <Compile Include="Forms\ColorWheel\ColorPicker.Designer.vb" />
+    <Compile Include="Forms\ColorWheel\ColorPicker.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorWheel\ColorPickerExt.Designer.vb" />
+    <Compile Include="Forms\ColorWheel\ColorPickerExt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorWheel\ColorWheel.Designer.vb" />
+    <Compile Include="Forms\ColorWheel\ColorWheel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorWheel\HSV.vb" />
+    <Compile Include="Forms\ColorWheel\RGB.vb" />
+    <Compile Include="Forms\ColorWheel\ScreenColorPicker.Designer.vb" />
+    <Compile Include="Forms\ColorWheel\ScreenColorPicker.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GetSrc.Designer.vb">
+      <DependentUpon>GetSrc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GetSrc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\image_show.Designer.vb">
+      <DependentUpon>image_show.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\image_show.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\img2base64.Designer.vb">
+      <DependentUpon>img2base64.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\img2base64.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LiveTestWindow.Designer.vb">
+      <DependentUpon>LiveTestWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LiveTestWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Lock.Designer.vb">
+      <DependentUpon>Lock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Lock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MD5.Designer.vb">
+      <DependentUpon>MD5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MD5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms\Page Info.Designer.vb">
+      <DependentUpon>Page Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Testcode.Designer.vb">
+      <DependentUpon>Testcode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Testcode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ASCII2HEX.resx">
+      <DependentUpon>ASCII2HEX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Code library.resx">
+      <DependentUpon>Code library.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColorWheel\ColorPicker.resx" />
+    <EmbeddedResource Include="Forms\ColorWheel\ColorPickerExt.resx" />
+    <EmbeddedResource Include="Forms\ColorWheel\ColorWheel.resx" />
+    <EmbeddedResource Include="Forms\ColorWheel\ScreenColorPicker.resx" />
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GetSrc.resx">
+      <DependentUpon>GetSrc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\image_show.resx">
+      <DependentUpon>image_show.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\img2base64.resx">
+      <DependentUpon>img2base64.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LiveTestWindow.resx">
+      <DependentUpon>LiveTestWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Lock.resx">
+      <DependentUpon>Lock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MD5.resx">
+      <DependentUpon>MD5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page Info.resx">
+      <DependentUpon>Page Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Testcode.resx">
+      <DependentUpon>Testcode.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documents.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Headings.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Links.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paragraphs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1487785756_text-html.ico" />
+    <None Include="Resources\Color Selection.txt" />
+    <None Include="Resources\Poem.txt" />
+    <None Include="Resources\Line Breaks.txt" />
+    <None Include="Resources\Basic.txt" />
+    <None Include="Resources\Video.txt" />
+    <None Include="Resources\Simple Video.txt" />
+    <None Include="Resources\Plug-ins.txt" />
+    <None Include="Resources\Loop.txt" />
+    <None Include="Resources\Auto Play.txt" />
+    <None Include="Resources\Audio.txt" />
+    <None Include="Resources\Square Bullets.txt" />
+    <None Include="Resources\Numbers.txt" />
+    <None Include="Resources\Disc.txt" />
+    <None Include="Resources\Circle.txt" />
+    <None Include="Resources\Simple Link.txt" />
+    <None Include="Resources\Local Links.txt" />
+    <None Include="Resources\Link Colors.txt" />
+    <None Include="Resources\Image as Link.txt" />
+    <None Include="Resources\Images Syntax.txt" />
+    <None Include="Resources\alt Attribute.txt" />
+    <None Include="Resources\Textarea.txt" />
+    <None Include="Resources\Table.txt" />
+    <None Include="Resources\Radio buttons.txt" />
+    <None Include="Resources\Message Box.txt" />
+    <None Include="Resources\Login.txt" />
+    <None Include="Resources\drop-down list.txt" />
+    <None Include="Resources\Padding.txt" />
+    <None Include="Resources\Margin.txt" />
+    <None Include="Resources\Internal.txt" />
+    <None Include="Resources\Fonts.txt" />
+    <None Include="Resources\External.txt" />
+    <None Include="Resources\drg_drop.bmp" />
+    <None Include="Resources\Window Close Automatically.txt" />
+    <None Include="Resources\Specify Referring Page.txt" />
+    <None Include="Resources\Popup Blocker Detection 2.txt" />
+    <None Include="Resources\Pass genert.txt" />
+    <None Include="Resources\IP Address.txt" />
+    <None Include="Resources\History Keeper.txt" />
+    <None Include="Resources\Focus OnLoad.txt" />
+    <None Include="Resources\Detecting Google Chrome.txt" />
+    <None Include="Resources\Date Display.txt" />
+    <None Include="Resources\Copy Selected Text.txt" />
+    <None Include="Resources\Close Window.txt" />
+    <None Include="Resources\Client Window Size.txt" />
+    <None Include="Resources\Change Background Colors.txt" />
+    <None Include="Resources\Calendar.txt" />
+    <None Include="Resources\Back Button.txt" />
+    <None Include="Resources\Add to Favorites.txt" />
+    <None Include="Resources\Home_5699.png" />
+    <None Include="Resources\NavigateForward_6271.ico" />
+    <None Include="Resources\NavigateBackwards_6270.ico" />
+    <None Include="Resources\books.png" />
+    <None Include="Resources\serialized-books %281%29.png" />
+    <None Include="Resources\serialized-books.png" />
+    <None Include="Resources\SelectCell_363_32.bmp" />
+    <None Include="Resources\play-button2.png" />
+    <None Include="Resources\play-button1.png" />
+    <None Include="Resources\play-button.png" />
+    <None Include="Resources\Saveall_6518.png" />
+    <None Include="Resources\Save_6530.ico" />
+    <None Include="Resources\Paste_6520.png" />
+    <None Include="Resources\Copy_6524.png" />
+    <None Include="Resources\Cut_6523.png" />
+    <None Include="Resources\loadingAnimation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

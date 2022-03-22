@@ -1,0 +1,5 @@
+<SCRIPT LANGUAGE="JavaScript">
+var ip = '<!--#echo var="REMOTE_ADDR"-->';
+document.write("Your IP address is" + ip);
+</script>
+// Source : http://www.htmlgoodies.com/beyond/javascript/article.php/3887346/Top-10-JavaScript-Snippets-for-Common-Tasks.htm
