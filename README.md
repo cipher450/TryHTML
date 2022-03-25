@@ -10,5 +10,5 @@ TryHTML is tool that can help you to Edit or Creat a HTML page in this tool You 
 ![df84b111-b376-5730-9c08-27077ac27316](https://user-images.githubusercontent.com/102109601/159380450-649a68aa-056d-4d5e-bd68-f539e4edb470.png)
 ![a5d19fe7-45e1-55d4-9e75-4ca8131683c7](https://user-images.githubusercontent.com/102109601/159380468-181adda6-09db-4e08-ba3b-846de7c9d649.png)
 
-#THIS PROJECT IS AN OLD PROJECT OF ME THAT HAD BEEN PUBLISHED IN WEBSITES LIKE TOOLSLIBE UNDER AND OTHERS I DECIDED TO PUBLISH IT SOURCE CODE :)
+#THIS PROJECT IS AN OLD PROJECT OF ME THAT HAD BEEN PUBLISHED IN WEBSITES LIKE TOOLSLIBE AND OTHERS I DECIDED TO PUBLISH IT SOURCE CODE :)
 ps : don't mind the tons of grammatical errors that I had in this and other old projects of mine
