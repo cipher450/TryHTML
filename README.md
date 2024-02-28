@@ -1,5 +1,5 @@
 # TryHTML - Original Realse Date : 30 March 2017
-TryHTML is tool that can help you to Edit or Creat a HTML page in this tool You can test your code while coding in LIVE and if your a beginner it not a problem TryHTML hase built in code library you can also Convert images to Base64 or the opposite and you can get source code of a webpage and you can also get eny color in RGB TryHTML hase a color Picker.
+TryHTML is a tool that can help you to edit or create an HTML page. In this tool, you can test your code while coding in real-time. If you're a beginner, it's not a problem. TryHTML has a built-in code library. You can also convert images to Base64 or vice versa. Additionally, you can get the source code of a webpage, and you can also get any color in RGB. TryHTML has a color picker.
 
 ![5f2db280-523a-55cc-84b6-e151255b551e](https://user-images.githubusercontent.com/102109601/159380377-0867e5c1-54e5-4538-86a6-c014099ca7cd.png)
 ![339bfd87-d0fe-5431-8199-458e18c92993](https://user-images.githubusercontent.com/102109601/159380381-b4f0f378-586b-40f9-aece-e52631819eb1.png)
